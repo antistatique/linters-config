@@ -1,14 +1,33 @@
 {
   "extends": [
-    "wesbos"
+    "wesbos",
+    "plugin:import/errors",
+    "plugin:import/warnings"
   ],
+  "plugins": ["import", "eslint-plugin-import-order-alphabetical"],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  },
   "rules": {
-    "import/no-unresolved": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "react/jsx-props-no-spreading": 0,
     "import/no-extraneous-dependencies": [
       "error",
       {
         "packageDir": "./"
       }
+    ],
+    "import-order-alphabetical/order": "error",
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "parent", "sibling", "index"],
+        "newlines-between": "always"
+      }
     ]
-  },
+  }
 }
