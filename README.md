@@ -1,4 +1,4 @@
-# Antistatique Linter Config
+# ✅ Antistatique Linter Config
 
 > Antistatique truth source and **opinionated** linters configuration.
 
