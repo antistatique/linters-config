@@ -4,7 +4,7 @@
     "plugin:import/errors",
     "plugin:import/warnings"
   ],
-  "plugins": ["import", "eslint-plugin-import-order-alphabetical"],
+  "plugins": ["import"],
   "settings": {
     "import/resolver": {
       "node": {
@@ -21,11 +21,19 @@
         "packageDir": "./"
       }
     ],
-    "import-order-alphabetical/order": "error",
+    "import/no-named-as-default": 0,
     "import/order": [
       "error",
       {
-        "groups": ["builtin", "external", "parent", "sibling", "index"],
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "index",
+          "parent",
+          "sibling",
+          "unknown"
+        ],
         "newlines-between": "always"
       }
     ]
