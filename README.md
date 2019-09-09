@@ -82,3 +82,11 @@ And just in case, ask your colleagues, they surely have great tips for you 😉
 There is not a lot to do to maintain this module. Those are the things to keep in mind while changing stuff:
 - In the `./package.json`, `peerDependencies` **must always be the same** as the `devDependencies`
 - You muse be logged as `antistatique-dev` to **publish a new version** on NPM
+
+## Credits
+
+**Big thanks** for the following libs and contributors:
+- [**Wes Bos** Eslint configuration](https://github.com/wesbos/eslint-config-wesbos)
+- [🐶 Husky](https://github.com/typicode/husky)
+- [lint-staged](https://github.com/okonet/lint-staged)
+
