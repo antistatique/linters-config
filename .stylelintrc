@@ -1,5 +1,12 @@
 {
   "ignoreFiles": [
+    "**/*.js",
+    "**/*.jsx",
+    "/**/*.html",
+    "/**/*.json",
+    "/**/*.md",
+    "/**/*.svg",
+    "/**/*.twig",
     "assets/components/base.scss",
     "assets/config/bootstrap.scss",
     "assets/config/bootstrap-variables.scss"
