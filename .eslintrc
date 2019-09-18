@@ -21,6 +21,12 @@
         "packageDir": "./"
       }
     ],
+    "jsx-a11y/control-has-associated-label": [ 2, {
+        "ignoreElements": [
+          "link"
+        ]
+      }
+    ],
     "import/no-named-as-default": 0,
     "import/order": [
       "error",
