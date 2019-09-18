@@ -31,8 +31,7 @@
           "internal",
           "index",
           "parent",
-          "sibling",
-          "unknown"
+          "sibling"
         ],
         "newlines-between": "always"
       }
