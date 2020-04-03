@@ -25,7 +25,7 @@ First, you'll need to **install** required dependencies and **get** the linters 
 
 
 ```bash
-$ npx install-peerdeps --dev antistatique-linters-config
+$ npx install-peerdeps --dev antistatique-linters-config -Y
 $ wget https://raw.githubusercontent.com/antistatique/linters-config/master/.eslintrc
 $ wget https://raw.githubusercontent.com/antistatique/linters-config/master/.stylelintrc
 ```
