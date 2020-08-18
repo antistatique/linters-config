@@ -1,3 +1,5 @@
+# ⚠️ Deprecated in favor of [antistatique/frontend-development-configuration](https://github.com/antistatique/frontend-development-configuration)
+
 # ✅ Antistatique Linter Config
 
 > Antistatique truth source and **opinionated** linters configuration.
